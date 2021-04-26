@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="cs.css">
+    <title>Javascipt</title>
+</head>
+<body>
+    <div class="h"></div>
+    <div class="flex-box-container-5"><h2>Challenge is Here</h2>
+        <h3 id="result">Play Now</h3>
+        <div class="flex-box-row-1">
+                <div id="your-box"><h2>You:<span id="yourScore">0</span></h2>
+                    
+                </div>
+                <div id="dealer-box"><h2>Computer:<span id="dealerScore">0</span></h2>
+                    
+                </div>
+        </div>
+            <div class="flex-box-row-2">
+                <div class="buttons">
+                    <button id="Hit" class="btn-lg btn-primary">Hit</button>
+                    <button id="Stand" class="btn-lg btn-warning">Stand</button>
+                    <button id="Deal" class="btn-lg btn-danger">Deal</button>
+                </div>
+            </div>
+            <div class="flex-box-row-3">
+                <table border='2'>
+                        <tr>
+                            <th>WINS</th>
+                            <th>LOSSES</th>
+                            <th>DRAWS</th>
+                        </tr>
+                        <tr>
+                            <td ><span id="wins">0</span></td>
+                            <td ><span id="losses">0</span></td>
+                            <td><span id="draws">0</span></td>
+                        </tr>
+                    </table>
+            </div>
+        
+    </div>
+    <script src='j1.js'>
+</script>
+</body>
+</html>

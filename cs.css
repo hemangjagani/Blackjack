@@ -1,0 +1,57 @@
+.flex-box-container-5
+{
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;  
+    text-align: center;
+    
+}
+.flex-box-row-1,.flex-box-row-2{
+    padding: 10px;
+    flex-wrap: wrap;
+   background-image: url('mando.jpg' );
+   color: white;
+    border: 1px solid black;
+    display: flex;
+}
+
+.flex-box-row-1 div{
+    border: 1px solid black;
+    display: flexbox;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex:1;
+    flex-wrap: wrap; 
+    min-height: 350px;
+    justify-content: center;
+   
+}
+
+.flex-box-row-1 img{
+    width:15%;
+    height: auto;
+    padding:10px;
+
+}
+.buttons button{
+    border: 3px solid black;
+    margin:5px;
+}
+.flex-box-row-2 div{
+    
+    padding: 10px;
+    border: 1px solid black;
+    margin: auto;    
+}
+.flex-box-row-3{
+    padding: 10px;
+}
+table,th,td{
+    padding: 10px;
+    margin: 10px;
+    margin: auto;
+}
+.h{
+    margin-top: 10px;
+}
